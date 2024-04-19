@@ -16,6 +16,6 @@ COPY poetry.lock pyproject.toml /code/
 RUN poetry install --no-interaction --no-ansi --no-root --no-dev
 
 # Copy Python code to the Docker image
-COPY test /code/test/
+COPY dsapwd /code/dsapwd/
 
-CMD [ "python", "test/foo.py"]
+CMD [ "python", "dsapwd/foo.py"]

@@ -1,11 +1,11 @@
-site_name: test
-repo_url: https://github.com/lcorrea/test
-site_url: https://lcorrea.github.io/test
+site_name: dsapwd
+repo_url: https://github.com/dsa/dsapwd
+site_url: https://dsa.github.io/dsapwd
 site_description: This is a template repository for Python projects that use Poetry for their dependency management.
-site_author: lcorrea
+site_author: dsa
 edit_uri: edit/main/docs/
-repo_name: lcorrea/test
-copyright: Maintained by <a href="https://lcorrea.com">Florian</a>.
+repo_name: dsa/dsapwd
+copyright: Maintained by <a href="https://dsa.com">Florian</a>.
 
 nav:
   - Home: index.md
@@ -43,9 +43,9 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/lcorrea/test
+      link: https://github.com/dsa/dsapwd
     - icon: fontawesome/brands/python
-      link: https://pypi.org/project/test
+      link: https://pypi.org/project/dsapwd
 
 markdown_extensions:
   - toc:

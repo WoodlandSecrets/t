@@ -1,4 +1,4 @@
-from test.foo import foo
+from dsapwd.foo import foo
 
 
 def test_foo():

@@ -1,15 +1,15 @@
-# test
+# dsapwd
 
-[![Release](https://img.shields.io/github/v/release/lcorrea/test)](https://img.shields.io/github/v/release/lcorrea/test)
-[![Build status](https://img.shields.io/github/actions/workflow/status/lcorrea/test/main.yml?branch=main)](https://github.com/lcorrea/test/actions/workflows/main.yml?query=branch%3Amain)
-[![codecov](https://codecov.io/gh/lcorrea/test/branch/main/graph/badge.svg)](https://codecov.io/gh/lcorrea/test)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/lcorrea/test)](https://img.shields.io/github/commit-activity/m/lcorrea/test)
-[![License](https://img.shields.io/github/license/lcorrea/test)](https://img.shields.io/github/license/lcorrea/test)
+[![Release](https://img.shields.io/github/v/release/dsa/dsapwd)](https://img.shields.io/github/v/release/dsa/dsapwd)
+[![Build status](https://img.shields.io/github/actions/workflow/status/dsa/dsapwd/main.yml?branch=main)](https://github.com/dsa/dsapwd/actions/workflows/main.yml?query=branch%3Amain)
+[![codecov](https://codecov.io/gh/dsa/dsapwd/branch/main/graph/badge.svg)](https://codecov.io/gh/dsa/dsapwd)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/dsa/dsapwd)](https://img.shields.io/github/commit-activity/m/dsa/dsapwd)
+[![License](https://img.shields.io/github/license/dsa/dsapwd)](https://img.shields.io/github/license/dsa/dsapwd)
 
 This is a template repository for Python projects that use Poetry for their dependency management.
 
-- **Github repository**: <https://github.com/lcorrea/test/>
-- **Documentation** <https://lcorrea.github.io/test/>
+- **Github repository**: <https://github.com/dsa/dsapwd/>
+- **Documentation** <https://dsa.github.io/dsapwd/>
 
 ## Getting started with your project
 
@@ -19,7 +19,7 @@ First, create a repository on GitHub with the same name as this project, and the
 git init -b main
 git add .
 git commit -m "init commit"
-git remote add origin git@github.com:lcorrea/test.git
+git remote add origin git@github.com:dsa/dsapwd.git
 git push -u origin main
 ```
 
@@ -39,8 +39,8 @@ To enable the code coverage reports, see [here](https://fpgmaas.github.io/cookie
 ## Releasing a new version
 
 - Create an API Token on [Pypi](https://pypi.org/).
-- Add the API Token to your projects secrets with the name `PYPI_TOKEN` by visiting [this page](https://github.com/lcorrea/test/settings/secrets/actions/new).
-- Create a [new release](https://github.com/lcorrea/test/releases/new) on Github.
+- Add the API Token to your projects secrets with the name `PYPI_TOKEN` by visiting [this page](https://github.com/dsa/dsapwd/settings/secrets/actions/new).
+- Create a [new release](https://github.com/dsa/dsapwd/releases/new) on Github.
 - Create a new tag in the form `*.*.*`.
 
 For more details, see [here](https://fpgmaas.github.io/cookiecutter-poetry/features/cicd/#how-to-trigger-a-release).

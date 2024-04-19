@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "test"
+name = "dsapwd"
 version = "0.0.1"
 description = "This is a template repository for Python projects that use Poetry for their dependency management."
-authors = ["lcorrea <flcorrea@florestleaks.com>"]
-repository = "https://github.com/lcorrea/test"
-documentation = "https://lcorrea.github.io/test/"
+authors = ["dsa <fdsa@dsa.com>"]
+repository = "https://github.com/dsa/dsapwd"
+documentation = "https://dsa.github.io/dsapwd/"
 readme = "README.md"
 packages = [
-  {include = "test"}
+  {include = "dsapwd"}
 ]
 
 [tool.poetry.dependencies]
@@ -19,7 +19,7 @@ pytest-cov = "^4.0.0"
 deptry = "^0.12.0"
 mypy = "^1.5.1"
 pre-commit = "^3.4.0"
-tox = "3.28.0"
+tox = "^4.11.1"
 
 [tool.poetry.group.docs.dependencies]
 mkdocs = "^1.4.2"
@@ -31,7 +31,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.mypy]
-files = ["test"]
+files = ["dsapwd"]
 disallow_untyped_defs = "True"
 disallow_any_unimported = "True"
 no_implicit_optional = "True"
@@ -94,7 +94,7 @@ skip_empty = true
 
 [tool.coverage.run]
 branch = true
-source = ["test"]
+source = ["dsapwd"]
 
 
 [tool.ruff.per-file-ignores]
