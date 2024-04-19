@@ -1,4 +1,4 @@
-site_name: dsapwd
+site_name: dsapw
 repo_url: https://github.com/dsa/dsapwd
 site_url: https://dsa.github.io/dsapwd
 site_description: This is a template repository for Python projects that use Poetry for their dependency management.
