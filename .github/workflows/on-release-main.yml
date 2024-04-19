@@ -1,9 +1,9 @@
 name: release-main
 
 on:
-  release:
-    types: [published]
-    branches: [main]
+  push:
+    branches:
+      - main
 
 jobs:
   publish:
